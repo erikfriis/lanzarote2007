@@ -1,10 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Poppins:wght@100;300;400;500;600&family=Racing+Sans+One&display=swap') */
-
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400; */
-
   font-family: "Racing Sans One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -21,7 +15,6 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
@@ -42,8 +35,7 @@ h1 {
 }
 
 #app {
-  /* max-width: 1280px; */
-  margin: 0 auto;
+  margin: 0 0;
 
   width: 100vw;
 }
@@ -54,14 +46,6 @@ h1 {
   justify-content: start;
   align-items: center;
   min-height: 100vh;
-}
-
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 .logoContainer {
@@ -151,7 +135,8 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  max-width: 22rem;
 }
 
 .formContainer {
@@ -164,8 +149,11 @@ button:focus-visible {
   padding-bottom: 0rem;
 }
 .label {
-  width: 80%;
-  /* max-width: 22rem; */
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .input {
