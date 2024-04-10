@@ -9,66 +9,71 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Poppins:wght@100;300;400;500;600&family=Racing+Sans+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image" content="/public/lanzaroteBild.svg" />
+    <meta
+      property="og:image"
+      content="https//:www.lanzarote2007.netlify.app//public/lanzaroteBild.svg"
+    />
     <title>Lanzarote 2007</title>
   </head>
   <body>
     <div id="app" class="app">
-      <div class="logoContainer">
-        <img
-          src="./public/lanzaroteLogo.svg"
-          alt="lanzarote 2007 logo"
-          class="logo"
-        />
-      </div>
-      <div class="border"></div>
-      <div class="textContainer mainText">
-        <div class="upperText">
-          <div>NABO TERASSEN</div>
-          <div class="date">FREDAG 10 MAJ KL. 17 - 00</div>
+      <div class="bigContainer">
+        <div class="logoContainer">
+          <img
+            src="./public/lanzaroteLogo.svg"
+            alt="lanzarote 2007 logo"
+            class="logo"
+          />
         </div>
-        <div class="lowerText">RELEASE-FEST/FEST MEN SOM AW!</div>
-      </div>
-      <div class="border"></div>
-      <div class="formOuterContainer">
-        <form
-          name="rsvp-form"
-          method="POST"
-          data-netlify="true"
-          netlify
-          class="formContainer"
-        >
-          <input type="hidden" name="form-name" value="rsvp-form" />
-          <label class="label">
-            <input
-              type="text"
-              name="name"
-              placeholder="Skriv namn här"
-              class="input"
-              required
-            />
-          </label>
-          <div class="btnContainer">
-            <button type="submit" class="btn">RSVP</button>
+        <div class="border"></div>
+        <div class="textContainer mainText">
+          <div class="upperText">
+            <div>NABO TERASSEN</div>
+            <div class="date">FREDAG 10 MAJ KL. 17 - 00</div>
           </div>
-        </form>
-      </div>
-      <h2 class="heading">DJ'S</h2>
+          <div class="lowerText">RELEASE-FEST/FEST MEN SOM AW!</div>
+        </div>
+        <div class="border"></div>
+        <div class="formOuterContainer">
+          <form
+            name="rsvp-form"
+            method="POST"
+            data-netlify="true"
+            netlify
+            class="formContainer"
+          >
+            <input type="hidden" name="form-name" value="rsvp-form" />
+            <label class="label">
+              <input
+                type="text"
+                name="name"
+                placeholder="Skriv namn här"
+                class="input"
+                required
+              />
+            </label>
+            <div class="btnContainer">
+              <button type="submit" class="btn">RSVP</button>
+            </div>
+          </form>
+        </div>
+        <h2 class="heading">DJ'S</h2>
 
-      <div class="djTextContainer smallerText">
-        <div>ALL INCLUZIVE SLÄPPER 3 HITZ</div>
-        <div>JOHAN TORARP + friends</div>
-      </div>
-      <div class="border"></div>
-      <div class="mainText secondaryTextContainer">
-        TA GÄRNA PÅ DIG NÅGOT 2007 OM DU VILL LIKSOM
-      </div>
-      <div class="border"></div>
-      <div class="smallText infoSection">
-        (Ingång: NK Parkaden, Regeringsgatan 47, våning 7)
+        <div class="djTextContainer smallerText">
+          <div>ALL INCLUZIVE SLÄPPER 3 HITZ</div>
+          <div>JOHAN TORARP + friends</div>
+        </div>
+        <div class="border"></div>
+        <div class="mainText secondaryTextContainer">
+          TA GÄRNA PÅ DIG NÅGOT 2007 OM DU VILL LIKSOM
+        </div>
+        <div class="border"></div>
+        <div class="smallText infoSection">
+          (Ingång: NK Parkaden, Regeringsgatan 47, våning 7)
+        </div>
       </div>
     </div>
-    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
