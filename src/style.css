@@ -165,7 +165,7 @@ button:focus-visible {
 }
 .label {
   width: 80%;
-  max-width: 22rem;
+  /* max-width: 22rem; */
 }
 
 .input {
