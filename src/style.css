@@ -105,6 +105,7 @@ button:focus-visible {
 .lowerText {
   padding-left: 3rem;
   padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 .textContainer {
@@ -136,7 +137,7 @@ button:focus-visible {
 .djTextContainer {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 01rem 1rem 2rem 1rem;
   max-width: 30rem;
 }
 
@@ -155,8 +156,8 @@ button:focus-visible {
   align-items: center;
   width: 100vw;
 
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0rem;
 }
 
 .formContainer label {
