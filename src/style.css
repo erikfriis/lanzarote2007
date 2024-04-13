@@ -2,6 +2,7 @@
   font-family: "Racing Sans One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 15px;
 
   color: black;
   background: #aed33f;
@@ -13,7 +14,7 @@
   -webkit-text-size-adjust: 100%;
 
   @media (max-width: 600px) {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -212,10 +213,6 @@ h1 {
   }
 }
 
-.btnContainer {
-  padding-top: 1rem;
-}
-
 .secondaryTextContainer {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -229,4 +226,8 @@ h1 {
   width: 95%;
   max-width: 30rem;
   padding-bottom: 0.5rem;
+}
+
+.inputEmail {
+  margin-top: 1rem;
 }
