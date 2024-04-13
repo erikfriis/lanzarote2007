@@ -194,6 +194,9 @@ h1 {
   width: 100%;
   border: none;
   opacity: 50%;
+  &::placeholder {
+    color: black;
+  }
 
   &:focus {
     outline: none;
