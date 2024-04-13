@@ -14,7 +14,7 @@
   -webkit-text-size-adjust: 100%;
 
   @media (max-width: 600px) {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
@@ -132,7 +132,7 @@ h1 {
   width: 95%;
   max-width: 30rem;
   margin: 0;
-  padding-top: 1rem;
+  padding-top: 0.25rem;
 }
 
 .heading::after {
@@ -157,6 +157,10 @@ h1 {
 .djTextContainer > div {
   width: 50%;
   text-align: center;
+}
+
+.btnContainer {
+  padding-top: 0.5rem;
 }
 
 .formOuterContainer {
@@ -229,5 +233,5 @@ h1 {
 }
 
 .inputEmail {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
